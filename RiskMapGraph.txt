@@ -1,0 +1,7 @@
+#formatting for countries: country name; parent continent; {array of connected countries, separated by commas}
+#formatting for continents: 
+Continents
+
+Countries
+
+End

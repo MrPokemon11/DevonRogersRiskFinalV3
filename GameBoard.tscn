@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://CreateCountry.gd" type="Script" id=1]
+[ext_resource path="res://DrawCountry.gd" type="Script" id=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+script = ExtResource( 1 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1017.0
+margin_bottom = 594.0
+
+[node name="Button" type="Button" parent="ColorRect"]
+margin_left = 69.0
+margin_top = 47.0
+margin_right = 165.0
+margin_bottom = 132.0
+
+[node name="Container" type="Node2D" parent="."]
+script = ExtResource( 2 )
